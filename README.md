@@ -18,8 +18,8 @@ This project provides a simple HTTP REST API server to send messages through a M
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <repository-folder>
+    git clone https://github.com/ka1hung/pyMesh
+    cd pyMesh
     ```
 
 2.  **Create a virtual environment and activate it:**
