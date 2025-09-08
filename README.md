@@ -95,7 +95,15 @@ The server will start and attempt to connect to the Meshtastic device.
   ```json
   {
     "message": "Hello node!",
-    "destination": "!b4a48a9c"
+    "destination": "!b4xx8a9c"
+  }
+  ```
+
+  To send a channel message:
+  ```json
+  {
+    "message": "Hello node!",
+    "channelIndex": 1
   }
   ```
 
@@ -105,7 +113,7 @@ The server will start and attempt to connect to the Meshtastic device.
     "success": true,
     "message": "Message sent successfully",
     "timestamp": "2023-10-27T10:00:00.123456",
-    "destination": "!b4a48a9c"
+    "destination": "!b4xx8a9c"
   }
   ```
 
@@ -115,4 +123,10 @@ The server will start and attempt to connect to the Meshtastic device.
     "success": false,
     "error": "Not connected"
   }
+  ```
+
+## Build binnary file
+  ```
+  pip install PyInstaller
+  pyinstaller --onefile --name "pyMesh" main.py
   ```
