@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.~
+*!
+.env
+.venv
+env/
+venv/
+ENV/
+VENV/
+
+# Meshtastic Server specific
+meshtastic-env/
+build/
+dist/
+*.log
+*.spec
